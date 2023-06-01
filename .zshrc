@@ -56,3 +56,4 @@ zinit light-mode for \
 ### End of Zinit's installer chunk
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(starship init zsh)"
