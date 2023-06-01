@@ -57,3 +57,4 @@ zinit light-mode for \
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
+export STARSHIP_CONFIG=~/dotfiles/starship.toml
