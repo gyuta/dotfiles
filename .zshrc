@@ -61,3 +61,10 @@ export STARSHIP_CONFIG=~/dotfiles/starship.toml
 
 # poetryのために追加したがこれは共有すべきではないか？PC毎にPATHなど入っているツールに応じて変えるべき？
 export PATH="/home/goto/.local/bin:$PATH"
+
+# alias
+alias k=kubectl
+alias kctx=kubectx
+
+# global alias
+alias -g G='| grep --color=auto'
